@@ -1,0 +1,61 @@
+.main {
+ h1{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+  .chat{ height: 80vh;
+  width: 350px;
+  margin: auto;
+  background-color: antiquewhite;
+  border-radius: 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+     form {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    border-top: 1px solid rgb(175, 175, 173);
+    input {
+      width: 80%;
+      outline: none;
+      height: 40px;
+      border: none;
+      border-bottom-left-radius: 10px;
+    }
+    button {
+      border-bottom-right-radius: 10px;
+      width: 20%;
+      border: none;
+      cursor: pointer;
+    }
+  }
+
+  .messages {
+    width: 100%;
+    margin-left: 10px;
+    margin-top: 20px;
+    .message {
+        width: fit-content;
+      max-width: 80%;
+      height: 30px;
+      background-color: aliceblue;
+      border-radius: 5px;
+      border-bottom-left-radius: 0;
+      margin-bottom: 10px;
+      padding: 6px;
+      p{
+        width: 100%;
+        margin: 0;
+        display: inline;
+      }
+    }
+  }
+  }
+ 
+}
